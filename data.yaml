@@ -1,0 +1,21 @@
+# Ultralytics / YOLO Dataset Configuration File
+path: C:/Users/perth/Downloads/My First Project.v1i.folder # Root dataset directory
+train: train # Training images (relative to 'path')
+val: valid   # Validation images (relative to 'path')
+test: test   # Test images (relative to 'path', optional)
+
+# Number of classes
+nc: 10
+
+# Class names
+names:
+  0: Beagle
+  1: Boxer
+  2: Chihuahua
+  3: Cocker_Spaniel
+  4: German_Shorthaired
+  5: Great_Pyrenees
+  6: Pomeranian
+  7: Pug
+  8: Saint_Bernard
+  9: Samoyed
